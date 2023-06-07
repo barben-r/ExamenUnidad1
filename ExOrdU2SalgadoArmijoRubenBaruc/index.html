@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css1/bootstrap.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <table class="table table-bordered table-hover" align="rigth">
+                    <thead>
+                        <tr>
+                            <th class="text-center">
+                                <h1>Televisión</h1>
+                            </th>
+                        </tr>
+                    <tbody id="tv" background="tv.gif">
+                        <tr class="text-rigth">
+                            <td rowspan="12">
+                                <p id="contChanel" class="badge badge-primary" ></p>
+                                </p>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <p >
+                                <p id="contVolume" class="badge badge-success"></p>
+                                </p>
+                                <p >
+                                <p id="muting" class="badge badge-danger"></p>
+                                </p>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4">
+                                <button id="btnEncender" class="btn btn-dark form-control">Power</button>
+                            </td>
+                        </tr>
+                    </tfoot>
+                    </thead>
+                </table>
+                <table class="table table-hover">
+                    <tbody>
+                        <tr>
+                            <div class="row">
+                                <div class="col-2">
+                                    <h4><span id="power" class="badge bg-danger">○</span></h4>
+                                </div>
+                                <div class="col-2">
+                                    <h4><span id="volumeUp" class="badge bg-warning">C +</span></h4>
+                                </div>
+                                <div class="col-2">
+                                    <h4><span id="volumeDown" class="badge bg-warning">C -</span></h4>
+                                </div>
+                                <div class="col-2">
+                                    <h4><span id="chanelup" class="badge bg-info">V +</span></h4>
+                                </div>
+                                <div class="col-2">
+                                    <h4><span id="chanelDown" class="badge bg-info">V -</span></h4>
+                                </div>
+                                <div class="col-2">
+                                    <h4><span id="mute" class="badge bg-primary">M</span></h4>
+                                </div>
+                            </div>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js1/jquery-3.5.1.js"></script>
+    <script src="js1/bootstrap.js"></script>
+    <script src="js1/tele.js"></script>
+</body>
+
+</html>
